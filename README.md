@@ -55,7 +55,7 @@ Mở file cấu hình Claude Desktop và thêm:
 ```json
 {
   "web-management-mcp": {
-      "command": "path\\.venv\\Scripts\\python.exe",
+      "command": "python",
       "args": [
         "path\\web-management\\web_management_mcp.py"
       ],
@@ -67,6 +67,20 @@ Mở file cấu hình Claude Desktop và thêm:
 ```
 Thay đổi *path*.
 ### Bước 4: Khởi động lại Claude Desktop
+
+# DEMO
+## Kiểm tra bảo mật
+Trả về kết quả các lỗi bảo mật, mức độ ảnh hưởng và đưa ra hướng sửa.  
+![alt text](images/baomat_1.png)  
+![alt text](images/baomat_2.png)  
+
+## Quản lý database
+Có thể thực hiện thêm, sửa, xóa CSDL.  
+![alt text](images/quanlySQL.png)  
+
+## Phân tích kiến trúc trang web
+Phân tích được ngôn ngữ, kiến trúc và cây thư mục.  
+![alt text](images/kientruc.png)  
 
 # Reference
 ZilongXue - claude-post: https://github.com/ZilongXue/claude-post
