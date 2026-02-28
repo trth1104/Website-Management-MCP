@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "event-management-mcp": {
+      "command": "python",
+      "args": [
+        "c:\\xampp\\htdocs\\testweb\\event_management_mcp.py"
+      ],
+      "env": {
+        "PYTHONPATH": "c:\\xampp\\htdocs\\testweb"
+      }
+    }
+  }
+}
